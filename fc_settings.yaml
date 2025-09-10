@@ -30,9 +30,11 @@ LINK: [
 #       avatar：必填，头像地址
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
-    enable: false,
+    enable: true,
     json_api_or_path: "",
     list: [
+          ["天海博客", "https://woolyun.com/", "https://woolyun.com/wp-content/uploads/2025/05/yyl-e1746698677584.jpg"],
+          ["Uwillno's Blog", "https://vercel.uwillno.com/", "https://uwillno.com/uwlogo.png", "blogres/rss.xml"]
         # 示例1：
         # ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         # ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
